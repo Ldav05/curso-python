@@ -22,3 +22,5 @@ print(type(5)) # Tipo 'int'
 print(type(1.5)) # Tipo 'float'
 print(type(5+1j)) # Tipo 'cpmplex'
 print(type(True)) # Tipo 'bool'
+
+print(type(print("Mi cadena de texto"))) # Tipo  'NoneType'
