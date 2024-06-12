@@ -58,6 +58,8 @@ print(language.isnumeric())
 print("1".isnumeric())
 print(language.lower())
 print(language.upper().isupper())
+print(language.startswith("p"))
+print("Py" == "py")
 
 
 
