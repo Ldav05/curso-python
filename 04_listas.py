@@ -23,6 +23,8 @@ print(my_other_list.count("Luis")) # Contar las veces que se repite un elemento 
 #print(my_other_list[4]) IndexError
 #print(my_other_list[-5]) IndexError
 
+print(my_other_list.index("Luis"))
+
 age, height, name, surname = my_other_list
 print(name)
 
